@@ -37,3 +37,6 @@ RECOVERY_LIBRARY_SOURCE_FILES += \
 # Screen
 TARGET_SCREEN_WIDTH := 1080
 TARGET_SCREEN_HEIGHT := 2400
+
+# Project ID Quota
+$(call inherit-product, $(SRC_TARGET_DIR)/product/emulated_storage.mk)
